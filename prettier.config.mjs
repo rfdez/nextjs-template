@@ -5,7 +5,7 @@
 const config = {
 	useTabs: true,
 	tabWidth: 4,
-	plugins: ["prettier-plugin-packagejson"],
+	plugins: ["prettier-plugin-packagejson", "prettier-plugin-tailwindcss"],
 	overrides: [
 		{
 			files: "*.{json,json5,webmanifest}",
